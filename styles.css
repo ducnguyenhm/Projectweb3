@@ -1,0 +1,50 @@
+.item{
+    padding-top: 6rem !important;
+}
+
+.formduc{
+    width: 14rem;
+    height: 58px;
+}
+
+.btn-danger{
+    height: 50px !important;
+}
+.text{
+    font-size: 13px;
+
+}
+svg{
+    width: 11;
+    height: 8;
+
+}
+
+.img-1{
+    width: 50%;
+    height: auto;
+    
+}
+
+.img-founder{   
+    width: 500px;
+    height: 530px;
+
+}
+.navbar{
+    background-color: white;
+
+}
+
+@media (max-width: 1000px) {
+    .d-flex{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .img-founder{
+        width: 100%;
+        height: auto;
+
+    }
+
+}
