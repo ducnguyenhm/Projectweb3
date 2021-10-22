@@ -1,5 +1,5 @@
 .item{
-    padding-top: 6rem !important;
+    padding-top: 100px !important;
 }
 
 .formduc{
@@ -15,25 +15,44 @@
 
 }
 svg{
-    width: 11;
-    height: 8;
+    width: 11px;
+    height: 8px;
 
 }
 
 .img-1{
-    width: 50%;
+    width: 60%;
     height: auto;
     
 }
 
 .img-founder{   
-    width: 500px;
-    height: 530px;
+    width: 550px;
+    height:auto;
+    
 
 }
 .navbar{
     background-color: white;
 
+}
+
+.d-flex{
+    justify-content: space-between !important;
+
+}
+.container{
+    margin-left:5% !important;
+    margin-right: 5% !important;
+
+}
+
+.nameamba {
+    float: right;
+    height: 0;
+    margin-top: -70px;
+    margin-right: 5%;
+    font-size: medium;
 }
 
 @media (max-width: 1000px) {
@@ -46,5 +65,20 @@ svg{
         height: auto;
 
     }
+    body{
+        text-align: center;
+    }
+    .item1{
+        padding-top : 10px !important;
+
+    }
+    .container{
+        margin-left: 0;
+        margin-right: 0;
+
+    }
 
 }
+
+
+
