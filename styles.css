@@ -2,14 +2,10 @@
     padding-top: 80px !important;
     
 }
-.item2{
-    padding-left: 30px;
 
-}
-
-.formduc{
-    width: 14rem;
-    height: 58px;
+#email{
+    width: 60%;
+    height: 50px !important;
 }
 
 .btn-danger{
@@ -28,6 +24,10 @@ svg{
 .img-1{
     width: 60%;
     height: auto;
+}
+.text2{
+    font-size: 16px;
+
 }
 
 .img-founder{   
@@ -65,27 +65,35 @@ svg{
     font-size: medium;
 }
 .text1{
-    font-size: 20px;
+    font-size: 18px;
 
 }
 
 ul{
     list-style: none;
     padding-bottom: 40px;
+    padding-left: 0px;
 }
 
 .part3{
     text-align: center;
     padding-left: 30%;
     padding-right: 30%;
-    background-color: ;
+
+}
+.disappear{
+    padding-top: 100px;
+
 }
 
 @media (max-width: 1000px) {
+    .disappear{
+        display: none;
+
+    }
     .d-flex{
         flex-direction: column;
         justify-content: center;
-        padding : 50px;
     }
     .img-founder{
         width: 100%;
@@ -93,39 +101,70 @@ ul{
 
     }
     body{
+        padding: 0px;
         text-align: center;
     }
     .item1{
         padding-top : 10px !important;
+        padding: 0px;
+    }
+    .flex2{
+        text-align: left !important;
 
     }
-    .item{
-        padding-top: 0px !important;
-        
+
+    .flex3{
+        padding : 0px;
+
+    }
+    .item3{
+        padding-top: 50px;
+
     }
     .container{
         margin-left: 0;
         margin-right: 0;
+    }
+    .item{
+        padding: 0px;
+    }
+    .flex4{
+        padding: 0px !important; 
 
     }
-
+    .hitem{
+        padding-left: 0px !important ;
+        padding-right: 0px !important;
+    }
+    
 }
 
 .flex3{
     background-color: #ffd000;
 }
+.flex4{
+    text-align: center;
+}
 
 a{
     text-decoration: none;
 }
-.item3{
-    padding-top: 100px !important;
+.flex4{
+    padding-top: 100px;
 
 }
 
 .hitem{
     text-align: center;
-    padding-left: 100px !important;
-    padding-right: 100px !important;
+    padding-top: 100px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+h2{
+    font-size: 40px;
+
 }
 
+h1{
+    padding-bottom: 30px;
+}
