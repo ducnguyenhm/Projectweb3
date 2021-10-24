@@ -1,5 +1,10 @@
 .item{
     padding-top: 80px !important;
+    
+}
+.item2{
+    padding-left: 30px;
+
 }
 
 .formduc{
@@ -43,7 +48,7 @@ svg{
 
 .d-flex{
     justify-content: space-between !important;
-    padding-top: 90px !important;
+    padding-bottom: 90px !important;
 
 }
 .container{
@@ -58,6 +63,22 @@ svg{
     margin-top: -70px;
     margin-right: 5%;
     font-size: medium;
+}
+.text1{
+    font-size: 20px;
+
+}
+
+ul{
+    list-style: none;
+    padding-bottom: 40px;
+}
+
+.part3{
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    background-color: ;
 }
 
 @media (max-width: 1000px) {
@@ -90,5 +111,21 @@ svg{
 
 }
 
+.flex3{
+    background-color: #ffd000;
+}
 
+a{
+    text-decoration: none;
+}
+.item3{
+    padding-top: 100px !important;
+
+}
+
+.hitem{
+    text-align: center;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
 
