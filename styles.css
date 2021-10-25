@@ -3,6 +3,26 @@
     
 }
 
+.item5{
+    flex-basis: 16.66667%; 
+    padding-top: 10px;
+    padding-left: 10px !important;
+} 
+.item6{
+    flex-basis: 33.33334%; 
+ } 
+
+ .item7{
+    
+
+ }
+
+ 
+ li{
+    padding-bottom: 8px;
+
+ }
+
 #email{
     width: 60%;
     height: 50px !important;
@@ -142,7 +162,6 @@ ul{
     }
     .itemf{
         flex-basis: 33.333334% !important;
-        margin-bottom: 1.5rem !important;
     }
     .flex5 {
         display: flex;
@@ -195,7 +214,6 @@ a{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    background-color: #d4d4d7;
     padding-top: 80px;
     padding-left: 8%;
 
@@ -223,8 +241,9 @@ h1{
 }
 
 .itemf{
-    flex-basis: 16.66667%;
-
+    flex-basis: 16.66667% ;
 }
-
+footer{
+    background-color: #d4d4d7;
+}
 
