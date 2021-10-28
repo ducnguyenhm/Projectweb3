@@ -65,7 +65,7 @@ svg{
 }
 .navbar{
     background-color: white;
-
+    padding-left: 100px;
 }
 .item2{ 
     padding-bottom: 50px;
@@ -105,6 +105,17 @@ ul{
     padding-top: 100px;
 
 }
+
+.btnsign{
+    background-color: white;
+    margin-left: 10px !important;
+
+}
+.btnsign:hover{
+    background-color: red;
+
+}
+
 
 @media (max-width: 1000px){
     .item5{
@@ -203,6 +214,18 @@ ul{
 
 
 }
+
+.flex{
+    display: flex;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.flex > div{
+    padding-right: 50px;
+
+}
+
 
 @media (max-width: 576px) {
     
