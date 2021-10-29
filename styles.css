@@ -106,18 +106,43 @@ ul{
 
 }
 
-.btnsign{
-    background-color: white;
-    margin-left: 10px !important;
-
+.btnlog{
+    background-color: white; 
+    border: white;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 10px;
+    margin-right: 5px;
 }
+
+.btnlog:hover{
+    background-color: rgb(238, 238, 238);
+    border: 1px solid  rgb(238, 238, 238);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.btnsign{
+    background-color: white; 
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+}
+
 .btnsign:hover{
     background-color: red;
-
+    border: 1px solid  red;
+    border-radius: 5px;
+    padding: 8px;
 }
 
 
 @media (max-width: 1000px){
+    .navbar{
+        padding: 0px;
+
+    }
+
     .item5{
         align-items: center;
         padding-bottom: 20px;
@@ -215,10 +240,12 @@ ul{
 
 }
 
+
 .flex{
     display: flex;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-right: auto;
+
 }
 
 .flex > div{
@@ -294,46 +321,62 @@ footer{
 }
 
 .dropbtn {
-    background-color: #04AA6D;
-    color: white;
+    background-color: white;
+    color: rgb(77, 77, 77);
     padding: 16px;
     font-size: 16px;
     border: none;
   }
   
-  .dropdown {
+.dropdown {
     position: relative;
     display: inline-block;
-  }
+}
   
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
+    background-color: white;
+    border-radius: 10px;
+    width: 37rem;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
+}
+
   
-  .dropdown-content a {
-    color: black;
+.dropdown-content a{
+    color: rgb(0, 0, 0);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     margin: 10px;
-  }
+}
   
-  .dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: rgb(211, 211, 211);}
   
-  .dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropbtn:hover {color: black}
 
-  .navposition{
+.navposition{
     margin-left: 50px;
 
-  }
+}
 
-  .container-fluid{
-    border: 2px solid  red;
-  }
+.item-menu{
+    display: flex;
+
+}
+
+.item-menu > div{
+    width: 50%;
+    padding: 2rem;
+
+}
+
+.footnav{
+    text-align: center !important;
+    background-color: rgb(241, 241, 241) !important;  
+    margin: 0px !important;
+
+}
