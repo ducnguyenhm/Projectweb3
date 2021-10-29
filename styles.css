@@ -11,6 +11,13 @@
 .item6{
     flex-basis: 33.33334%; 
  } 
+
+ .flex6{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+ }
  
  li{
     padding-bottom: 8px;
@@ -18,6 +25,10 @@
  }
 
 #email{
+    width: 60%;
+    height: 50px !important;
+}
+#email1{
     width: 60%;
     height: 50px !important;
 }
@@ -36,8 +47,9 @@ svg{
 }
 
 .img-1{
-    width: 60%;
+    width: 70%;
     height: auto;
+    padding-left: 10px;
 }
 .text2{
     font-size: 16px;
@@ -94,18 +106,51 @@ ul{
 
 }
 
-.btnsign{
-    background-color: white;
-    margin-left: 10px !important;
-
+.btnlog{
+    background-color: white; 
+    border: white;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 10px;
+    margin-right: 5px;
 }
+
+.btnlog:hover{
+    background-color: rgb(238, 238, 238);
+    border: 1px solid  rgb(238, 238, 238);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.btnsign{
+    background-color: white; 
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+}
+
 .btnsign:hover{
     background-color: red;
-
+    border: 1px solid  red;
+    border-radius: 5px;
+    padding: 8px;
 }
 
 
 @media (max-width: 1000px){
+    .navbar{
+        padding: 0px;
+
+    }
+
+    .item5{
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .item6{
+        padding-bottom: 20px;
+    }
     .container{
         text-align: center;
     }
@@ -115,7 +160,12 @@ ul{
     }
     .d-flex{
         flex-direction: column;
-        justify-content: center;
+        text-align: center;
+    }
+    .flex6{
+            flex-direction: column;
+            justify-content: center !important;
+
     }
     .img-founder{
         width: 100%;
@@ -172,18 +222,30 @@ ul{
         height: auto;
 
     }
+    #email1{
+        width: 100%;
+        height: auto;
+
+    }
+    .btn1{
+        width: 100% !important;
+
+    }
     .btn{
         width: 80%;
         height: auto;
 
     }
-    
+
+
 }
+
 
 .flex{
     display: flex;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-right: auto;
+
 }
 
 .flex > div{
@@ -196,8 +258,10 @@ ul{
     
     .itemf{
         flex-basis: 50% !important;
-        margin-bottom: 1.5rem !important;
+        margin-bottom: .845rem !important;
     }
+
+    
 
 }
 
@@ -211,14 +275,11 @@ ul{
 }
 .flex4{
     text-align: center;
+    padding-top: 100px;
 }
 
 a{
     text-decoration: none;
-}
-.flex4{
-    padding-top: 100px;
-
 }
 
 .flex5{
@@ -254,13 +315,57 @@ h1{
 .itemf{
     flex-basis: 16.66667% ;
 }
+
 footer{
     background-color: #d4d4d7;
 }
 
+.dropbtn {
+    background-color: white;
+    color: rgb(77, 77, 77);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    width: 37rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+  
+.dropdown-content a{
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+}
+  
+.dropdown-content a:hover {background-color: rgb(211, 211, 211);}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropbtn:hover {color: black}
+
+.navposition{
+    margin-left: 50px;
+
+}
+
 .item-menu{
     display: flex;
-    flex-direction: row;
+
 }
 
 .item-menu > div{
@@ -269,36 +374,9 @@ footer{
 
 }
 
-.dropbtn {
-    background-color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
+.footnav{
+    text-align: center !important;
+    background-color: rgb(241, 241, 241) !important;  
+    margin: 0px !important;
+
 }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    min-width: 160px;
-    border: 1px solid gray;
-    z-index: 1;
-    width: 600px;
-    padding: 0px;
-}
-  
-  .dropdown-content a{
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content li:hover {background-color: rgb(248, 248, 248); border-radius: 10px;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
